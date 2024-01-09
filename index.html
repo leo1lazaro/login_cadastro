@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="root.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="icons.css">
+    <link rel="stylesheet" href="overlay.css">
+    <script src="https://kit.fontawesome.com/d01bb57914.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;700&display=swap" rel="stylesheet">
+    <title>Login - Leoz1n</title>
+</head>
+
+<body>
+    <section class="main">
+        <div class="login-container" id="login-container">
+            <div class="form-container">
+                <form class="form form-login">
+                    <h2 class="form-login-title">Entrar com</h2>
+                    <div class="form-login-icons">
+                        <a href="#" class="social-icons"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="social-icons"><i class="fa-brands fa-google"></i></a>
+                        <a href="#" class="social-icons"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                    <p class="form-login-text">Ou utilize sua conta</p>
+                    <div class="form-login-inputs">
+                        <input type="email" class="form-login-input" placeholder="Email">
+                        <input type="password" class="form-login-input" placeholder="Senha">
+                    </div>
+                    <a href="#" class="form-login-link">Esqueceu a senha?</a>
+
+                    <button class="form-login-btn">Logar</button>
+                </form>
+
+                <form class="form form-login">
+                    <h2 class="form-login-title">Criar conta</h2>
+                    <div class="form-login-icons">
+                        <a href="#" class="social-icons"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="social-icons"><i class="fa-brands fa-google"></i></a>
+                        <a href="#" class="social-icons"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                    <p class="form-login-text">ou cadastre seu email</p>
+                    <div class="form-login-inputs">
+                        <input type="text" class="form-login-input" placeholder="Nome">
+                        <input type="email" class="form-login-input" placeholder="Email">
+                        <input type="password" class="form-login-input" placeholder="Senha">
+                    </div>
+
+                    <button class="form-login-btn">Cadastrar</button>
+                </form>
+            </div>
+            <div class="overlay-container">
+                <div class="overlay">
+                    <h2 class="form-login-title overtitle">Já tem conta?</h2>
+                    <p class="form-login-text">para entrar na nossa plataforma
+                        faça login com suas informações
+                    </p>
+                    <button class="form-login-btn overbtn" id="">Entrar</button>
+                </div>
+                <div class="overlay">
+                    <h2 class="form-login-title overtitle">Olá aluno</h2>
+                    <p class="form-login-text">Cadastre-se e comece a utilizar nossa plataforma</p>
+                    <button class="form-login-btn overbtn" id="cadastrar">Cadastrar</button>
+                </div>
+            </div>
+        </div> 
+    </section>
+
+    <script src="./js/login.js"></script>
+</body>
+
+</html>

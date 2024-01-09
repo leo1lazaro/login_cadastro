@@ -1,0 +1,42 @@
+.overlay-container{
+    width: 50%;
+    height: 100%;
+    background-color: var(--cor-principal);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(100%);
+    color: var(--font-branca);
+    transition: 1s;
+    
+}
+.overlay{
+   width: 100%;
+   height: 100%;
+   background-color: var(--cor-principal);
+   position: absolute;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   padding: 110px 40px;
+   text-align: center;
+}
+.overtitle{
+    color: var(--font-branca);
+}
+.overbtn{
+    border-color: var(--cor-secundaria);
+    color: var(--font-branca);
+}
+.login-container.move .overlay-container{
+    transform: translateX(0%);
+    transition: 2s;
+
+}
+.login-container.move .overlay:nth-child(2){
+
+opacity: 0;
+transition: 2s;
+
+}
